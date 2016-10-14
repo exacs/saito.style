@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X (part 2)</title>
+  <style>
+    body {
+      background: #000;
+    }
+    .grad {
+      clip-path: url(#x);
+    }
+    .sunset {
+      mix-blend-mode: screen;
+      animation: translateY 10s linear infinite alternate;
+    }
+    .splash {
+      transform-origin: center;
+      animation: fullrotation 10s linear infinite;
+    }
+
+    @keyframes fullrotation {
+      0%   { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    @keyframes translateY {
+      0%   { transform: translateY(-100px); }
+      100% { transform: translateY(100px); }
+    }
+  </style>
+</head>
+<body>
+  
+  <svg width="320" height="415" viewbox="0 0 320 415" style="max-width: 160px">
+    <g class="grad">
+      <image class="splash" xlink:href="/imgs/x-splash.jpg" x="-160" y="-100" width="640" height="640" />
+      <!--<image class="sunset" xlink:href="/imgs/x-sunset.jpg" x="-160" y="-100" width="640" height="640" />-->
+      <image class="sunset" xlink:href="/imgs/x-sunset.jpg" x="-160" y="-100" width="640" height="640" />
+    </g>
+
+    <defs>
+      <clipPath id="x">
+        <polygon class="x" points="4,0 67,0 160,167 255,0 316,0 190,202 320,415 258,415 155,242 61,415 0,415 126,205"/>
+      </clipPath>
+    </defs>
+  </svg>
+</body>
+</html>
