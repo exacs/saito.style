@@ -54,7 +54,7 @@ var deg = 0
 source.subscribe(
   function (o) {
     deg += o.delta
-    console.log(deg)
+    console.log(deg, o.x, o.y)
     $('#sunsetX').css('transform', 'translateY(' + o.x + 'px)')
     $('#splash').css('transform', 'rotate(' + deg + 'deg)')
   },

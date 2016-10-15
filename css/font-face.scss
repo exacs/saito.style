@@ -1,0 +1,25 @@
+---
+---
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: local('â˜ºï¸Ž'),
+       url("{{site.github.url}}/fonts/Poppins/Poppins-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local('â˜ºï¸Ž'),
+       url("{{site.github.url}}/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Arbutus Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local('â˜ºï¸Ž'),
+       url("{{site.github.url}}/fonts/Arbutus_Slab/ArbutusSlab-Regular.ttf") format("truetype");
+}
