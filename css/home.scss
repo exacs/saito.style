@@ -55,9 +55,8 @@ body {
 .x--splash {
   transform-origin: center;
 }
-.x--grad {
-  clip-path: url(#x-mask);
-}
+.x--grad {}
+
 .x--sunset {
   mix-blend-mode: screen;
 }
