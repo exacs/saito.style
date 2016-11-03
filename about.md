@@ -41,7 +41,7 @@ Computer Engineer Undergraduate at [E.T.S. Ingenieros Informáticos](http://etsi
 
 ##### 2009/sep - 2013/apr
 
-Architect Undergraduate at [E.T.S. Arquitectos de Madrid](http://etsamadrid.upm.es)
+(dropped out) Architect Undergraduate at [E.T.S. Arquitectos de Madrid](http://etsamadrid.upm.es)
 
 
 
