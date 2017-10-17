@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Website of Carlos Saito Murata, a passionate of frontend developer and a
   Computer Science student
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: "http://example.com" # the base hostname & protocol for your site
+url: "http://saito.style" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
