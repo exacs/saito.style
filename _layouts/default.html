@@ -3,19 +3,19 @@
     <title>{{ page.title }}</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ site.github.url }}/css/font-face.css">
-    <link rel="stylesheet" href="{{ site.github.url}}/css/default.css">
+    <link rel="stylesheet" href="{{ '/assets/css/font-face.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/default.css' | relative_url }}">
   </head>
 
   <body>
     <nav class="navbar">
-      <a class="navbar-brand navbar-x" href="{{ site.github.url }}/">
+      <a class="navbar-brand navbar-x" href="{{ '/' | relative_url }}">
         {% include x.html %}
       </a>
 
       <ul class="nav navbar-nav">
         <li class="nav-item">
-          <a href="{{ site.github.url }}/about" class="nav-link">about</a>
+          <a href="{{ '/about' | relative_url }}" class="nav-link">about</a>
         </li>
       </ul>
     </nav>

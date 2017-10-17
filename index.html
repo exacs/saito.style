@@ -6,26 +6,28 @@
   <title>Carlos Saito</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{ site.github.url }}/css/font-face.css">
-  <link rel="stylesheet" href="{{ site.github.url }}/css/home.css">
+  <link rel="stylesheet" href="{{ '/assets/css/font-face.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
 </head>
 <body>
   <section class="logo">
-    <div class="logo--saito logo--text">Saito</div>
-    <div class="logo--style logo--text">Style</div>
     <div class="logo--x">
       {% include x.html %}
     </div>
   </section>
 
   <nav class="menu">
-    <a href="/about" class="menu--link menu--cv">about</a>
-    <!--<a href="/cv" class="menu--link menu--contact">Contact</a>-->
+    <a href="/about"
+      class="menu--link menu--north-west">about</a>
+    <a href="/free.style"
+      class="menu--link menu--north-east">free.style</a>
+    <a href="mailto:carlos@saito.style"
+      class="menu--link menu--south-east">email</a>
   </nav>
 
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/4.1.0/rx.lite.min.js"></script>
-  <script src="{{ site.github.url }}/js/gyro.js"></script>
-  <script src="{{ site.github.url }}/js/x.js"></script>
+  <script src="{{ '/assets/js/gyro.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/x.js' | relative_url }}"></script>
 </body>
 </html>
