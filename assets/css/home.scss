@@ -24,6 +24,7 @@ body {
   max-width: 90%;
   margin: 0 auto;
   font-family: Poppins;
+  overflow: hidden;
 }
 
 .logo--saito {
@@ -83,12 +84,13 @@ body {
   text-decoration: none;
 }
 
-.menu--cv {
+.menu--north-west {
   top: 0;
   left: 0;
 }
 
-.menu--contact {
+.menu--south-east {
   bottom: 0;
   right: 0;
+  text-align: right;
 }

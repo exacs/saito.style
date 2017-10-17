@@ -4,5 +4,5 @@
 @charset "utf-8";
 
 body {
-  background: #000 url('/imgs/splash.jpg') no-repeat center top;
+  background: #000 url("{{ '/assets/imgs/splash.jpg' | relative_url }}") no-repeat center top;
 }
