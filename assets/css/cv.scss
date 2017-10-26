@@ -1,0 +1,48 @@
+---
+---
+@charset "utf-8";
+@import 'minima';
+
+.x {
+  height: 30px;
+  width: auto;
+}
+
+body {
+  font-family: Arial;
+  background: #000;
+  color: #ddd;
+}
+
+.the-title {
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  padding: 7rem 0;
+}
+
+.fuck-amal {
+  padding: 10rem 0;
+}
+
+.fuck-amal-quote {
+  font-size: 3rem;
+  width: 80%;
+  transform: scaleX(1.25);
+  transform-origin: 0% 0%;
+}
+
+.fuck-amal-source {
+  text-align: right;
+}
+
+.sometimes {
+  padding: 15rem 1rem;
+}
+
+.sometimes-quote {
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  transform-origin: 0% 0%;
+}
