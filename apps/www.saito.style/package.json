@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "eleventy --input=./src --serve",
+    "build": "eleventy --input=src"
   },
   "keywords": [],
   "author": "Carlos Saito <carlos@saito.style>",
   "license": "MIT",
-  "description": "My main website"
+  "description": "My main website",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
 }
