@@ -12,7 +12,8 @@ body {
 }
 
 main {
-  padding-block: 2rem;
+  padding-block-start: 2rem;
+  padding-block-end: 4rem;
   padding-inline: 1rem;
   margin: auto;
   max-width: 40rem;
