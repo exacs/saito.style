@@ -1,7 +1,7 @@
 @import url(fonts.css);
 
 html {
-  font-family: Inter;
+  font-family: "Work Sans";
   line-height: 1.5rem;
 }
 body {
@@ -84,6 +84,7 @@ h2 {
 h3 {
   font-family: "Playfair Display";
   font-size: 1.625rem;
+  line-height: 2rem;
   margin-block-start: 0;
   margin-block-end: 1rem;
 }
@@ -94,11 +95,10 @@ h3:has(.date) {
 }
 
 h3 .date {
-  /*   font-variant-numeric: tabular-nums; */
   font-feature-settings: "pnum", "lnum";
 }
 
-.m {
+.under-h3 {
   margin-left: 10rem;
 }
 
@@ -107,7 +107,7 @@ h4 {
   font-size: 1.25rem;
   line-height: 1.5rem;
   font-weight: 600;
-  margin-block-start: 1rem;
+  margin-block-start: 1.5rem;
   margin-block-end: 0.5rem;
 }
 
@@ -123,5 +123,8 @@ h4 {
 
 p {
   max-width: 35rem;
+  font-size: 1.0625rem;
+  margin-block-start: 0.5rem;
+  margin-block-end: 1.25rem;
 }
 
