@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ title }} | saito.style</title>
-    <link rel="stylesheet" href="/assets/page.css" />
+    <link rel="stylesheet" href="./assets/page.css" />
   </head>
   <body>
     <div class="logo">
       <a href="/">Carlos Saito</a>
     </div>
-    {% include "nav.njk" %}
+    <div class="sticky-nav">{% include "nav.njk" %}</div>
     {{ content | safe }}
   </body>
 </html>
