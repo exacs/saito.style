@@ -17,6 +17,16 @@ header {
   padding: 0.5rem 0;
 }
 
+a {
+  color: #000;
+  text-underline-offset: 0.125rem;
+  text-decoration-thickness: 0.025rem;
+  /* transition: text-decoration-thickness, 150ms ease-in; */
+}
+a:hover {
+  text-decoration-thickness: 0.125rem;
+}
+
 .logo {
   font-family: "Work Sans";
   max-width: 60rem;
