@@ -35,6 +35,14 @@ p {
   padding: 2rem;
 }
 
+small {
+  padding-block-start: 1rem;
+  display: block;
+  font-family: "Work Sans";
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
 .clock {
   display: none;
 }
